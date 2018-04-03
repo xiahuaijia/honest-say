@@ -1,7 +1,11 @@
 # honest-say
-honest-say decode uin 坦白说QQ解密
+honest-say 坦白说QQ解密
 
-[https://tai7sy.github.io/honest-say/index.html](https://tai7sy.github.io/honest-say/index.html)
+UA模拟手机QQ, 打开下面网站抓包
+[坦白说](https://ti.qq.com/honest-say/my-received.html?_wv=9191&_wwv=132&_qStyle=1&ADTAG=main)
+
+然后在这里解密:
+[DecodeUin](https://tai7sy.github.io/honest-say/index.html)
 
 ``` JavaScript
 const table = {"oe": 0, "n": 0, "z": 0,
