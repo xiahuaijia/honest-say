@@ -37,6 +37,7 @@ let appView = new Vue({
     },
     computed:{
         qq(){
+          this.encodeUin = this.encodeUin.replace('*S1*','')
           const table = {
      "oe": 0, "n": 0, "z": 0,
      "oK": 1, "6": 1, "5": 1,
