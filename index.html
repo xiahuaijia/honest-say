@@ -1,13 +1,4 @@
-<html>
-<head>
 
-</head>
-
-<body>
-</body>
-
-
-</html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,7 +25,7 @@ Vue.use(MuseUI)
 
 let appView = new Vue({
     el: '#app',
-    template:`<div>
+    template:`<div style="margin: 40px auto;max-width:800px">
             <mu-text-field type="text" hintText="Input Here" v-model="encodeUin"/>
     <p>decode: {{qq}}</p>
     <p><a href='https://github.com/Tai7sy/honest-say' target='_blank'>GitHub</a></p>
@@ -96,14 +87,8 @@ let appView = new Vue({
 </body>
   
   <script>
-  // tell the embed parent frame the height of the content
-  if (window.parent && window.parent.parent){
-    window.parent.parent.postMessage(["resultsFrame", {
-      height: document.body.getBoundingClientRect().height,
-      slug: "ypx9ztrx"
-    }], "*")
-  }
-</script>
+
+  </script>
 
 </body>
 
