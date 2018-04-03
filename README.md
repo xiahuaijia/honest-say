@@ -1,6 +1,8 @@
 # honest-say
 honest-say decode uin 坦白说QQ解密
 
+https://jsfiddle.net/ypx9ztrx/26/
+
 ``` JavaScript
 const table = {"oe": 0, "n": 0, "z": 0,
      "oK": 1, "6": 1, "5": 1,
