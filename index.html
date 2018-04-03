@@ -2,8 +2,6 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="googlebot" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="https://unpkg.com/vue/dist/vue.min.js"></script>
   <script type="text/javascript" src="https://unpkg.com/muse-ui/dist/muse-ui.js"></script>
@@ -22,10 +20,10 @@
 
       let appView = new Vue({
         el: '#app',
-        template: `<div style="margin: 40px auto;max-width:800px">
+        template: `<div style="margin: 40px auto;width:fit-content">
             <mu-text-field type="text" hintText="Input Here" v-model="encodeUin"/>
-    <p>decode: {{qq}}</p>
-    <p><a href='https://github.com/Tai7sy/honest-say' target='_blank'>GitHub</a></p>
+    <p style="margin-top:0">QQ号: {{qq}}</p>
+    <p style="margin-top:24px"><a href='https://github.com/Tai7sy/honest-say' target='_blank'>GitHub</a></p>
     </div>`,
         data () {
           return {
