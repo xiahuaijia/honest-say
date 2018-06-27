@@ -1,6 +1,8 @@
 # honest-say
 honest-say 坦白说QQ解密
 
+新增了2个 对应的值
+
 UA模拟手机QQ, 打开下面网站抓包
 [坦白说](https://ti.qq.com/honest-say/my-received.html?_wv=9191&_wwv=132&_qStyle=1&ADTAG=main)
 
